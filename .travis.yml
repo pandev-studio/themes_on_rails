@@ -1,19 +1,14 @@
 language: ruby
-before_install: gem install bundler -v='1.11.2'
+before_install: gem install bundler -v="1.17"
 script:
   - bundle exec rake db:migrate --trace
   - bundle exec rake db:test:prepare
   - bundle exec rake spec
 rvm:
-  - 2.0.0
-  - 2.1.5
-  - 2.2.1
+  - 2.6.5
 gemfile:
-  - gemfiles/rails_32.gemfile
-  - gemfiles/rails_40.gemfile
-  - gemfiles/rails_41.gemfile
-  - gemfiles/rails_42.gemfile
+  - gemfiles/rails_52.gemfile
 env:
   - RAILS_ENV=test
-notifications:
-  email: false
+#notifications:
+#  email: false

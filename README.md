@@ -1,4 +1,4 @@
-# ThemesOnRails [![Build Status](https://travis-ci.org/yoolk/themes_on_rails.png?branch=master)](https://travis-ci.org/yoolk/themes_on_rails) [![Dependency Status](https://gemnasium.com/yoolk/themes_on_rails.png)](https://gemnasium.com/yoolk/themes_on_rails) [![Code Climate](https://codeclimate.com/github/yoolk/themes_on_rails.png)](https://codeclimate.com/github/yoolk/themes_on_rails) [![Coverage Status](https://coveralls.io/repos/yoolk/themes_on_rails/badge.png?branch=master)](https://coveralls.io/r/yoolk/themes_on_rails?branch=master) [![Gem Version](https://badge.fury.io/rb/themes_on_rails.png)](http://badge.fury.io/rb/themes_on_rails)
+# ThemesOnRails [![Build Status](https://travis-ci.org/pandev-studio/themes_on_rails.svg?branch=master)](https://travis-ci.org/pandev-studio/themes_on_rails)
 
 ## Installation
 
@@ -6,7 +6,7 @@ The simplest way to install is to use Bundler.
 
 Add this gem to your Gemfile:
 
-    gem 'themes_on_rails'
+    gem 'themes_on_rails', github: pandev-studio/themes_on_rails
 
 If you want to use `themes_on_rails` with `liquid` template, add one more gem to your Gemfile:
 
